@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="nombres " placeholder="ingrese sus nombres">
+        <input type="number" id="edad" placeholder="ingrese su edad">
+        <input type="date" id="fecha_nac"> 
+        <button type="button" onclick="capturaValores()">Enviar</button> 
+    </form>
+
+    <script>
+
+        function capturaValores(){
+            var nombres = document.getElementbyId('nombres').value; 
+            alert(nombres); 
+            console.log(nombres); 
+
+
+        }
+    </script>
+</body>
+</html> 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>CREAR</title>
+    {%load static %}  
+    <link rel="stylesheet" href="{%'../static/app/style.css' %}"> 
+</head>
+<body>
+    <h1 class="titulo">CREAR</h1> 
+    <div class="descri">
+        <h2> Descipcion</h2>
+        <p>Este archivo se usa para crear </p>
+    </div>
+    <form class="form"> 
+        <div class="input-field"> 
+            <input type="text" required>
+            <label> Nombre autor </label> 
+        </div> 
+        <div class="input-field">
+            <input type="text" required> 
+            <label>Descripcion</label>
+        </div>
+        <div class="input-field">
+            <input type="text" required> 
+            <label>Fecha</label>
+        </div>
+        <div class="input-field">
+            <input type="text" required> 
+            <label>Nombre Libro</label>
+        </div>
+    </form> 
+    <div class="boton"> 
+        <button class="button" onclick="Valor()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            ENVIAR
+        </button> 
+    </div> 
+    <script>
+
+        function Valor(){
+            var enviar = document.getElementById('crear').value; 
+            alert(Crear); 
+        }
+    </script>
+</body>
+</html> 
